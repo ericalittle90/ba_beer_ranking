@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+puts "Hello!!!!"
+
+require "bundler/setup"
+require "ba_beer_ranking"
+
+BaBeerRanking::CLI.new.call 
